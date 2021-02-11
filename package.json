@@ -4,7 +4,8 @@
   "description": "test work with branches",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sl24/test-node/issues"
   },
-  "homepage": "https://github.com/sl24/test-node#readme"
+  "homepage": "https://github.com/sl24/test-node#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
